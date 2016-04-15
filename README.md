@@ -6,7 +6,7 @@
    - Tunneled TLS
    - No Anon Identity
    - PAP
-   - Username: kvedder@umass.edu
+   - Username: <username>@umass.edu
    - Password: ...
   >IPv4 Settings
    - DNS servers: 8.8.8.8, 8.8.4.4
