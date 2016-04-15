@@ -31,11 +31,11 @@ sudo apt-get install sbt
 sudo apt-get install python3-numpy python3-scipy python3-matplotlib python3-pip
 
 #Python NeuralDoodle
-sudo apt-get install python3.4-venv
-sudo pip3 install --upgrade setuptools
-sudo easy_install -U setuptools
-sudo apt-get install libfreetype6-dev
-sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+#sudo apt-get install python3.4-venv
+#sudo pip3 install --upgrade setuptools
+#sudo easy_install -U setuptools
+#sudo apt-get install libfreetype6-dev
+#sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
 
 #Maven
 sudo apt-get install maven
