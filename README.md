@@ -47,3 +47,7 @@ https://www.google.com/chrome/browser/desktop/index.html
  - Setup git
    - https://help.github.com/articles/set-up-git/
 
+ - Setup Rhythmbox
+   - sudo apt-get install ubuntu-restricted-extras
+   - rm ~/.local/share/rhythmbox/rhythmdb.xml
+
