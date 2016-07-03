@@ -26,13 +26,14 @@ http://askubuntu.com/questions/453793/remapping-caps-lock-in-14-04-trusty-tahr
 
  - Run pre-install.sh
 
+ - Copy SSH setup to .ssh
+
+ - Install all updates from upsteam to fix Ubuntu Software Center .deb packages bug
+
  - Install Chrome from website
 https://www.google.com/chrome/browser/desktop/index.html
 
  - Run install.sh
-
- - Create .bash_aliases file
-   - Alias emacs to "emacs -nw"
 
  - Open Unity Tweak Tool
    - Set Theme to Numix
@@ -42,6 +43,7 @@ https://www.google.com/chrome/browser/desktop/index.html
    - https://www.eclipse.org/downloads/
 
  - Setup Thunderbird
+   - Run Thunderbird once
    - go to ~/.thunderbird
 
  - Setup git

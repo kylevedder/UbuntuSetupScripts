@@ -11,9 +11,7 @@ sudo apt-get update
 
 #Apperance
 sudo apt-get install unity-tweak-tool
-sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-bevel
-sudo apt-get install nautilus-open-terminal
-sudo nautilus -q
+sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 
 #Editors
 sudo apt-get install texmaker
@@ -40,9 +38,5 @@ sudo apt-get install python3-numpy python3-scipy python3-matplotlib python3-pip
 #Maven
 sudo apt-get install maven
 
-#XClip
-sudo apt-get install xclip
-
-#Setup git info
-git config --global user.name "kylevedder"
-git config --global user.email "kyle.c.vedder@gmail.com"
+#Setup Rhythmbox
+sudo rm ~/.local/share/rhythmbox/rhythmdb.xml
