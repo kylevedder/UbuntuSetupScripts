@@ -46,10 +46,9 @@ https://www.google.com/chrome/browser/desktop/index.html
    - Run Thunderbird once
    - go to ~/.thunderbird
 
- - Setup git
-   - https://help.github.com/articles/set-up-git/
-
  - Setup Rhythmbox
    - sudo apt-get install ubuntu-restricted-extras
    - rm ~/.local/share/rhythmbox/rhythmdb.xml
 
+- (May Be Needed) Setup git
+   - https://help.github.com/articles/set-up-git/
