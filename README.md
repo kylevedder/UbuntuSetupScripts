@@ -29,6 +29,12 @@ http://askubuntu.com/questions/453793/remapping-caps-lock-in-14-04-trusty-tahr
  - Copy SSH setup to .ssh
 
  - Install all updates from upsteam to fix Ubuntu Software Center .deb packages bug
+ 
+ - Add the following to the `.bashrc` file:
+ `source /opt/ros/kinetic/setup.bash
+setxkbmap -option ctrl:nocaps
+export PATH="/home/$USER/scripts:$PATH"
+export HISTSIZE=-1`
 
  - Install Chrome from website
 https://www.google.com/chrome/browser/desktop/index.html

@@ -5,8 +5,11 @@ sudo add-apt-repository ppa:webupd8team/atom
 echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | sudo tee /etc/apt/sources.list.d/webupd8team-java.list
 echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | sudo tee -a /etc/apt/sources.list.d/webupd8team-java.list
 echo "deb https://dl.bintray.com/sbt/debian /" | sudo tee -a /etc/apt/sources.list.d/sbt.list
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 642AC823
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
+#ROS Keyserver
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 0xB01FA116
 sudo apt-get update
 
 #Apperance
@@ -38,5 +41,17 @@ sudo apt-get install python3-numpy python3-scipy python3-matplotlib python3-pip
 #Maven
 sudo apt-get install maven
 
+#Mercurial
+sudo apt-get install mercurial
+
+#Install ROS
+sudo apt-get install ros-kinetic-desktop-full
+
 #Setup Rhythmbox
 sudo rm ~/.local/share/rhythmbox/rhythmdb.xml
+
+#Setup code directory
+mkdir -p ~/code/robo-cup/greyhound-ssl/
+
+#Setup RoboCup SSL
+hg clone https://greyhound.cs.umass.edu/hg/robocup-ssl ~/code/robo-cup/greyhound-ssl/robocup-ssl/
