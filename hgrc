@@ -1,0 +1,11 @@
+# Mercurial configuration file
+# See hgrc(5) for more information
+
+# User Interface settings
+[ui]
+username= Kyle Vedder <kvedder@umass.edu>
+editor=nano
+merge=meld
+
+[extensions]
+shelve =

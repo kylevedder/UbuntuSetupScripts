@@ -55,3 +55,6 @@ sudo rm ~/.local/share/rhythmbox/rhythmdb.xml
 
 #Setup code directory
 mkdir -p ~/code/robo-cup/greyhound-ssl/
+
+#Setup Mercurial
+cp hgrc ~/.hgrc
