@@ -44,7 +44,10 @@ sudo apt-get install maven
 #Mercurial
 sudo apt-get install mercurial
 
-#Install ROS
+#KDevelop
+sudo apt-get install kdevelop
+
+# ROS
 sudo apt-get install ros-kinetic-desktop-full
 
 #Setup Rhythmbox
@@ -52,6 +55,3 @@ sudo rm ~/.local/share/rhythmbox/rhythmdb.xml
 
 #Setup code directory
 mkdir -p ~/code/robo-cup/greyhound-ssl/
-
-#Setup RoboCup SSL
-hg clone https://greyhound.cs.umass.edu/hg/robocup-ssl ~/code/robo-cup/greyhound-ssl/robocup-ssl/

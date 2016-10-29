@@ -58,3 +58,7 @@ https://www.google.com/chrome/browser/desktop/index.html
 
 - (May Be Needed) Setup git
    - https://help.github.com/articles/set-up-git/
+- Setup Mercurial
+Clone RoboCup SSL:
+#Setup RoboCup SSL
+hg clone https://greyhound.cs.umass.edu/hg/robocup-ssl ~/code/robo-cup/greyhound-ssl/robocup-ssl/
