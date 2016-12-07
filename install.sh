@@ -50,6 +50,12 @@ sudo apt-get install kdevelop
 # ROS
 sudo apt-get install ros-kinetic-desktop-full
 
+# Compiz Settings Manager
+sudo apt-get install compizconfig-settings-manager compiz-plugins-extra
+
+# Gimp
+sudo apt install gimp
+
 #Setup Rhythmbox
 sudo rm ~/.local/share/rhythmbox/rhythmdb.xml
 
