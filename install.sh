@@ -54,7 +54,10 @@ sudo apt-get install ros-kinetic-desktop-full
 sudo apt-get install compizconfig-settings-manager compiz-plugins-extra
 
 # Gimp
-sudo apt install gimp
+sudo apt-get install gimp
+
+# htop
+sudo apt-get install htop
 
 #Setup Rhythmbox
 sudo rm ~/.local/share/rhythmbox/rhythmdb.xml
@@ -64,3 +67,9 @@ mkdir -p ~/code/robo-cup/greyhound-ssl/
 
 #Setup Mercurial
 cp hgrc ~/.hgrc
+
+#Setup OpenVPN for Private Internet Access
+wget https://www.privateinternetaccess.com/installer/pia-nm.sh
+sudo bash pia-nm.sh
+sudo apt-get install network-manager-openvpn-gnome
+echo "Please configure the added VPNs with your account password!"
